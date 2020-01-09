@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{	int a,b;
+	printf("Enter both the numbers\n");
+	scanf("%d%d",&a,&b);
+	if(a>b)
+	{	printf("The integer %d is greater than integer %d",a,b);}
+	else if(a<b)
+	{ printf("The integer %d is less than %d",a,b);}
+	else
+	{ printf("Both integers are equal");
+	}
+	return 0;
+}
