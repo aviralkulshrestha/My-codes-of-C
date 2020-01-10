@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+   int i, j, n;
+   printf("Enter the number whose table is to be calculated\n");
+   scanf("%d",&n);
+   for(i = n; i <= (n*10); i += n) {
+      printf("%d x %d  =  %d\n", n, j, i);
+      j++;
+   }
+
+   return 0;
+
+}
