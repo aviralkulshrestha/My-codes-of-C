@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{
+   int i, start, end;
+   printf("Enter the range\n");
+   scanf("%d%d",&start,&end);
+   for(i = end; i >= start; i--) 
+      printf("%d\n", i);
+
+   return 0;
+}
